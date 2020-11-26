@@ -19,7 +19,7 @@ btn.appendChild(t);
 document.body.appendChild(btn);
 
 var btn2 = document.createElement("BUTTON")
-var t2 = document.createTextNode(">>");
+var t2 = document.createTextNode(">>>");
 btn2.id = "forward" // Create a text node
 btn2.style = "top:0;right:-5;position:fixed;z-index: 9999"
 btn2.appendChild(t2);
